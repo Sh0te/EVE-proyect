@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* l = light / d = dark */
+  --primary-l-color:#cccccc ;
+  --primary-d-color: ;
+
+  --secondary-text-color:#ffffff ;
+  --secondary-d-color: #000000;
+
+  --accent-l-color: ;
+  --accent-d-color: ;
+
+
+  /* ESCALA DE NEGROS */
+  --black-background-1: #191919;
+  --black-background-2: #333333;
+  --black-background-3: #605f5f;
+  --black-background-4: #999999;
+
+  /* ESCALA DE BLANCOS */
+  --white-background-1: #ffffff;
+  --white-background-2: #cccccc;
+  --white-background-3: #333333;
+  --white-background-4: #000000;
+
+
+}

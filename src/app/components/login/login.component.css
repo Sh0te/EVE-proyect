@@ -1,0 +1,5 @@
+.body-login {
+  height: 100vh;
+  color: aliceblue;
+  background: linear-gradient(82deg, var(--black-background-1) 0%,var(--black-background-2) 25%,var(--black-background-3) 80%, var(--black-background-4) 100%);
+}
