@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-section-login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65vh;
+}
+
+.left-div {
+  margin-left: 7vh;
+}
+
+.text-one{
+  font-size: 1em;
+  font-weight: bold;
+  position:relative;
+  top: 115px;
+  left: 18px;
+  font-family:Helvetica;
+  color: var(--black-text-color);
+}
+
+.of-text{
+  margin-inline-start: 6.9em;
+  margin-inline-end: 7em;
+  color: var(--white-text-color);
+}
+
+.big-title {
+  font-family: var(--title-text);
+  font-size: 18em;
+  padding: 0;
+  letter-spacing: 10px;
+}
+
+.bandw-title:hover{
+  text-shadow:
+    1px 1px 0 var(--white-background-1),
+    -1px 1px 0 var(--white-background-1),
+    -1px -1px 0 var(--white-background-1),
+    1px -1px 0 var(--white-background-1);
+  color: var(--white-background-4);
+  transition: all 0.3s ease;
+}
+
+.text-future{
+  text-shadow:
+  0px 0px 0 var(--white-background-1),
+  0px 1px 0 var(--white-background-1),
+  -0.5px -1px 0 var(--white-background-1),
+  0.5px -1px 0 var(--white-background-1);
+color: var(--white-background-4);
+}
+
+.text-two{
+  letter-spacing: 5.5px;
+  font-weight: bold;
+  bottom: 35px;
+  left: 5px;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.19em;
+  margin-block:25px;
+}
+/* Botton estilo 1 */
+
+.btn-loggin{
+  text-decoration: none;
+  color: var(--white-text-color);
+  border:1px solid var(--white-text-color);
+  padding: 20px;
+  padding-inline:20%;
+  border-radius:5px;
+  transition: all 0.5s ease;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.btn-loggin:hover{
+  background-color: var(--white-opacity-50);
+  padding-inline:42%;
+  border-radius: 5px;
+  color: var(--black-text-color);
+}
+
+.right-div {
+  background-color: antiquewhite;
+}

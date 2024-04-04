@@ -3,8 +3,8 @@
   --primary-l-color:#cccccc ;
   --primary-d-color: ;
 
-  --secondary-text-color:#ffffff ;
-  --secondary-d-color: #000000;
+  --white-text-color:#fff ;
+  --black-text-color: #000;
 
   --accent-l-color: ;
   --accent-d-color: ;
@@ -22,5 +22,21 @@
   --white-background-3: #333333;
   --white-background-4: #000000;
 
+  /* Escala con opacidades */
+  --black-opacity-25: rgba(0, 0, 0, 0.25);
+  --black-opacity-50: rgba(0, 0, 0, 0.5);
+  --black-opacity-75: rgba(0, 0, 0, 0.75);
+  --black-opacity-90: rgba(0, 0, 0, 0.9);
 
+  --white-opacity-25: rgba(255, 255, 255, 0.25);
+  --white-opacity-50: rgba(255, 255, 255, 0.5);
+  --white-opacity-75: rgba(255, 255, 255, 0.75);
+  --white-opacity-90: rgba(255, 255, 255, 0.9);
+
+  --title-text: 'Finder';
+}
+
+@font-face {
+  font-family: 'Finder';
+  src: url('./assets/fonts/Finder.otf');
 }

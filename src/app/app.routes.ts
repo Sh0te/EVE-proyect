@@ -10,5 +10,6 @@ export const routes: Routes = [
   { path: 'eve-charge', component: EveChargeComponent },
   { path: 'eve-monitorizer', component: EveMonitorizerComponent },
   { path: 'eve-settings', component: EveSettingsComponent },
+  { path: 'login', component: LoginComponent },
   { path: '', component: LoginComponent }
 ];

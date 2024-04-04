@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.background-image-form{
+background-color: var(--white-opacity-25);
+height: 75vh;
+width: 75vh;
+border-radius: 6em 0 0 0;
+box-shadow: -15px 20px 45px 0px var(--black-opacity-50);
+transition: all 0.5s ease;
+}
+
+form{
+  right: 12em;
+  position: relative;
+  top: 7em;
+  padding-block: 60px;
+  padding-inline: 100px;
+  background-color: var(--black-opacity-90);
+  box-shadow: -15px 20px 45px 0px var(--black-opacity-75);
+  border-radius: 30px;
+}
+.input-full-login{
+  width: 100%;
+}
+.input-mid-login {
+  flex: 1 0 0.5em;
+}
+.title-singup{
+  font-family:Impact;
+  padding-bottom: 30px;
+  font-size: 3em;
+}
+.form-signup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 30px;
+}
+
+label{
+  display: none;
+}
+
+.input-login{
+  flex: 1 0 0.5rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--white-text-color);
+  color: var(--white-text-color);
+  width: 100%;
+  padding: 5px;
+}
+
+.input-login:active, .input-login::placeholder{
+  color: var(--white-text-color);
+}
+
+.input-login:focus{
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.066));
+  outline: none;
+}
+
+.input-login:focus::placeholder{
+  transition: all 0.3s ease;
+  font-size: 0.8em;
+  color: var(--white-text-color);
+  padding-left: 100%;
+}
+.btn-done{
+  padding: 15px;
+  padding-inline: 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid var(--white-text-color);
+  color: var(--white-text-color);
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (width <= 1500px) {
+
+.background-image-form{
+  position: relative;
+  left: 900px;
+}
+
+}
