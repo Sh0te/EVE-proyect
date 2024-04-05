@@ -1,0 +1,31 @@
+<div class="background-image-form">
+  <!-- Formulario de inicio de sesión -->
+  <form action="/submit_login_form"
+    method="post">
+    <!-- Agregar token CSRF -->
+    <input type="hidden"
+      name="csrf_token"
+      value="csrf_token_value_here">
+    <div>
+      <h2 class="title-singup">Inicio de Sesión</h2>
+    </div>
+    <div class="form-signup">
+      <div class="input-full-login">
+        <input class="input-login"
+          type="email"
+          placeholder="Correo"
+          name="Correo"
+          required>
+      </div>
+      <div class="input-mid-login">
+        <input class="input-login"
+          type="password"
+          placeholder="Contraseña"
+          name="Contraseña"
+          required>
+      </div>
+    </div>
+    <button type="submit"
+      class="btn-done">Iniciar Sesión</button>
+  </form>
+</div>

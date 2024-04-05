@@ -4,7 +4,7 @@
 }
 .background-image-form{
 background-color: var(--white-opacity-25);
-height: 75vh;
+height: 73vh;
 width: 75vh;
 border-radius: 6em 0 0 0;
 box-shadow: -15px 20px 45px 0px var(--black-opacity-50);
@@ -51,20 +51,20 @@ label{
   color: var(--white-text-color);
   width: 100%;
   padding: 5px;
+  transition: all 0.3s ease;
 }
 
 .input-login:active, .input-login::placeholder{
   color: var(--white-text-color);
+  padding-left: 0px ;
 }
 
 .input-login:focus{
-  transition: all 0.3s ease;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.066));
+  background-color: rgba(255, 255, 255, 0.008);
   outline: none;
 }
 
 .input-login:focus::placeholder{
-  transition: all 0.3s ease;
   font-size: 0.8em;
   color: var(--white-text-color);
   padding-left: 100%;

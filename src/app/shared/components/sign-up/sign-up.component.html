@@ -1,0 +1,51 @@
+<div class="background-image-form">
+  <form action="/submit_register_form"
+    method="post">
+    <!-- Agregar token CSRF -->
+    <input type="hidden"
+      name="csrf_token"
+      value="csrf_token_value_here">
+    <div>
+      <h2 class="title-singup">Registro</h2>
+    </div>
+    <div class="form-signup">
+      <div class="input-mid-login">
+        <input class="input-login"
+          type="text"
+          placeholder="Nombre"
+          name="Nombre"
+          required>
+      </div>
+      <div class="input-mid-login">
+        <input class="input-login"
+          type="text"
+          placeholder="Apellidos"
+          name="Apellidos"
+          required>
+      </div>
+      <div class="input-full-login">
+        <input class="input-login"
+          type="email"
+          placeholder="Correo"
+          name="Correo"
+          required>
+      </div>
+      <div class="input-mid-login">
+        <input class="input-login"
+          type="tel"
+          placeholder="Número"
+          name="Número"
+          required>
+      </div>
+      <div class="input-mid-login">
+        <input class="input-login"
+          type="number"
+          placeholder="Edad"
+          name="Edad"
+          required>
+      </div>
+    </div>
+    <button type="submit"
+      class="btn-done">Registrarse</button>
+  </form>
+</div>

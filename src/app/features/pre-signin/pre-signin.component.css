@@ -89,3 +89,9 @@ color: var(--white-background-4);
 .right-div {
   background-color: antiquewhite;
 }
+
+.div-align-signin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

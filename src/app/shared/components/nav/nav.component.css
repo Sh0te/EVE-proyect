@@ -28,7 +28,7 @@ gap: 2em;
 .nav-menu li{
   list-style: none;
   padding: 20px;
-  padding-block: 38px;
+  padding-block: 28px;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease-in;
 }

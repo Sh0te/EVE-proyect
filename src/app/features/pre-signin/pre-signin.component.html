@@ -1,0 +1,23 @@
+<app-nav></app-nav>
+<div class="div-align-signin">
+  <section class="text-section-login">
+    <div class="left-div">
+      <div class="text-one">TAKE CONTROL <span class="of-text"> OF </span> YOUR VEHICLE</div>
+      <h1 class="big-title">E<span class="bandw-title">V</span>E</h1>
+      <div class="text-two">LIVE ONE STEP AHEAD OF THE <span class="text-future">FUTURE</span></div>
+      <a class="btn-loggin"
+        (click)="changeSignIn()">
+        @if(signIn){
+        SING UP
+        } @else {
+        LOG IN
+        }
+      </a>
+    </div>
+  </section>
+  @if(signIn){
+  <app-log-in></app-log-in>
+  } @else {
+  <app-sign-up></app-sign-up>
+  }
+</div>
