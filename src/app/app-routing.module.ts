@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
-import { EveChargeComponent } from './components/eve-charge/eve-charge.component';
 import { Routes, RouterModule } from '@angular/router';
+import { PreSigninComponent } from './features/pre-signin/pre-signin.component';
 
 const routes: Routes = [
-  {
-    path: '', component: EveChargeComponent
-  }
+  { path: '', component: PreSigninComponent },
+  { path: 'pre-sign-in', component: PreSigninComponent },
 ]
 
 @NgModule({
